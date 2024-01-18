@@ -1,7 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 body {
-  background: rgb(204,204,204);
-  font: 12pt "Tahoma"; 
-} 
+  font: 12pt "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+/* fix image taille error */
+img {
+  width: 100%;
+}
+
+figure {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
 
 article[size="A4"] {
   display: block;
@@ -18,5 +44,9 @@ body, article[size="A4"] {
   margin: 0;
   padding: initial;
   box-shadow: initial;
+}
+
+img {
+  width: 97%;
 }
 }
