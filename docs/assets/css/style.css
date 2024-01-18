@@ -29,6 +29,15 @@ figcaption {
   margin-top: 5px;
 }
 
+em {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
 article[size="A4"] {
   display: block;
   width: 21cm;
